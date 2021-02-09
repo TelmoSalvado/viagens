@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "932754444316",
+    "project_id": "causal-destiny-300711",
+    "storage_bucket": "causal-destiny-300711.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:932754444316:android:873555897d4efc0d630fd9",
+        "android_client_info": {
+          "package_name": "pt.ipg.viagens"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "932754444316-tv5c1eaouk5fskh7lbg3rcp0kuge4ue8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "pt.ipg.viagens",
+            "certificate_hash": "6c9602a54c197f20b600ba24015f896b6ee6e07f"
+          }
+        },
+        {
+          "client_id": "932754444316-714oro4100imige62366lepc4qc517t8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsL31YuvCM-NaUwModYFDLjFhT4DF_42U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "932754444316-714oro4100imige62366lepc4qc517t8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
