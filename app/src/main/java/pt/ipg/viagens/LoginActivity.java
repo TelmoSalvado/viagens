@@ -21,8 +21,9 @@ public class LoginActivity extends AppCompatActivity {
 
     //variavel para componentes de layout
     private Button btnLogin;
-    private EditText editEmail;
+    public EditText editEmail;
     private EditText editPassowrd;
+    private Email getEmail;
 
     //variavel para auth firebase
     private FirebaseAuth mAuth;
