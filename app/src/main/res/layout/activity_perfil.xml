@@ -19,6 +19,7 @@
                 android:id="@+id/buttonVerPerfil"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:onClick="verPerfil"
                 android:text="Ver Perfil"
                 android:textColorLink="#F44336" />
 
@@ -26,12 +27,14 @@
                 android:id="@+id/buttonNovoPerfil"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:onClick="novoPerfil"
                 android:text="Novo Perfil" />
 
             <Button
                 android:id="@+id/buttonEliminarPerfil"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:onClick="eliminarPerfil"
                 android:text="Eliminar Perfil" />
         </LinearLayout>
     </ScrollView>

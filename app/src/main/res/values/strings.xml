@@ -12,4 +12,7 @@
     <string name="menu_transporte">Transporte</string>
     <string name="menu_preco">Preço</string>
     <string name="menu_sobre">Sobre</string>
+    <string name="message_required">Campo Obrigatório!</string>
+    <string name="Validar_data">Formato DD/MM/AAAA</string>
+    <string name="Cancelar">Cancelar</string>
 </resources>
