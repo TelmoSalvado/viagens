@@ -1,4 +1,4 @@
-package pt.ipg.viagens.ui.home;
+package pt.ipg.viagens.ui.Perfil;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;

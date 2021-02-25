@@ -41,9 +41,9 @@
 
     <Button
         android:id="@+id/buttonRegistarnovo"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="53dp"
+        android:layout_width="382dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="15dp"
         android:layout_marginTop="39dp"
         android:text="Registar"
         app:layout_constraintStart_toStartOf="parent"
@@ -51,13 +51,13 @@
 
     <Button
         android:id="@+id/buttonLoginNovo"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="39dp"
-        android:layout_marginEnd="51dp"
+        android:layout_width="382dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
         android:onClick="Login"
         android:text="Login"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textInputLayout2" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonRegistarnovo" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

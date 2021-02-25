@@ -6,9 +6,10 @@
     <string name="nav_header_subtitle">android.studio@android.com</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
-
+    <string name="menu_home">Página Inicial</string>
     <string name="menu_perfil">Perfil</string>
     <string name="menu_viagem">Viagem</string>
     <string name="menu_transporte">Transporte</string>
     <string name="menu_preco">Preço</string>
+    <string name="menu_sobre">Sobre</string>
 </resources>

@@ -3,23 +3,23 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/nav_home">
+    app:startDestination="@+id/nav_perfil">
 
     <fragment
-        android:id="@+id/nav_home"
-        android:name="pt.ipg.viagens.ui.home.HomeFragment"
-        android:label="@string/menu_home"
+        android:id="@+id/nav_perfil"
+        android:name="pt.ipg.viagens.ui.Perfil.HomeFragment"
+        android:label="@string/menu_perfil"
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/nav_gallery"
-        android:name="pt.ipg.viagens.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
+        android:id="@+id/nav_viagem"
+        android:name="pt.ipg.viagens.ui.Transporte.GalleryFragment"
+        android:label="@string/menu_viagem"
         tools:layout="@layout/fragment_gallery" />
 
     <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="pt.ipg.viagens.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
+        android:id="@+id/nav_transporte"
+        android:name="pt.ipg.viagens.ui.Viagem.SlideshowFragment"
+        android:label="@string/menu_transporte"
         tools:layout="@layout/fragment_slideshow" />
 </navigation>

@@ -1,4 +1,4 @@
-package pt.ipg.viagens.ui.slideshow;
+package pt.ipg.viagens.ui.Viagem;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;

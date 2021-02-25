@@ -1,4 +1,4 @@
-package pt.ipg.viagens.ui.gallery;
+package pt.ipg.viagens.ui.Transporte;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;

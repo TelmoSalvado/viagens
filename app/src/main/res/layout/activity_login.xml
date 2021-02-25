@@ -42,24 +42,23 @@
 
     <Button
         android:id="@+id/buttonLogin"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="157dp"
-        android:layout_marginTop="36dp"
+        android:layout_width="382dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="10dp"
         android:text="Login"
-        app:layout_constraintStart_toEndOf="@+id/buttonRegistar"
-        app:layout_constraintTop_toBottomOf="@+id/PasswordView" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonRegistar" />
 
     <Button
         android:id="@+id/buttonRegistar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="41dp"
-        android:layout_marginTop="36dp"
-        android:layout_marginEnd="157dp"
+        android:layout_width="382dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="44dp"
         android:onClick="Registar"
         android:text="Registar"
-        app:layout_constraintEnd_toStartOf="@+id/buttonLogin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.551"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/PasswordView" />
 
