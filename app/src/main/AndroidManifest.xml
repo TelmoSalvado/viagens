@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Viagens">
-        <activity android:name=".ViagensActivity"></activity>
+        <activity android:name=".EliminarViagem"></activity>
+        <activity android:name=".VerViagem" />
+        <activity android:name=".NovaViagem" />
+        <activity android:name=".ViagensActivity" />
         <activity android:name=".EliminarPerfil" />
         <activity android:name=".NovoPerfil" />
         <activity android:name=".VerPerfilActivity" />
