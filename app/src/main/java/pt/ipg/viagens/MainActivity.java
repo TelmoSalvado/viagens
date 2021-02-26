@@ -101,10 +101,10 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         }else if (id == R.id.nav_perfil) {
             Intent intent = new Intent(this, PerfilActivity.class);
             startActivity(intent);
-        /*} else if (id == R.id.nav_Consultas) {
-            Intent intent = new Intent(this, ConsultasMedicas.class);
+        } else if (id == R.id.nav_viagem) {
+            Intent intent = new Intent(this, ViagensActivity.class);
             startActivity(intent);
-        } else if (id == R.id.nav_Analises) {
+        /*} else if (id == R.id.nav_Analises) {
             Intent intent = new Intent(this, Analises.class);
             startActivity(intent);
         } else if (id == R.id.nav_acerca) {
