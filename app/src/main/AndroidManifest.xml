@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Viagens">
-        <activity android:name=".EliminarPrecoActivity"></activity>
+        <activity android:name=".EliminarTransporte"></activity>
+        <activity android:name=".VerTransporte" />
+        <activity android:name=".NovoTransporte" />
+        <activity android:name=".TransporteActivity" />
+        <activity android:name=".EliminarPrecoActivity" />
         <activity android:name=".VerPrecoActivity" />
         <activity android:name=".NovoPrecoActivity" />
         <activity android:name=".PrecoActivity" />
