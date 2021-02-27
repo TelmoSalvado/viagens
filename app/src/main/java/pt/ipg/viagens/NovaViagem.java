@@ -2,7 +2,9 @@ package pt.ipg.viagens;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 
 public class NovaViagem extends AppCompatActivity {
 
@@ -11,4 +13,5 @@ public class NovaViagem extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_nova_viagem);
     }
+
 }
