@@ -15,4 +15,5 @@
     <string name="message_required">Campo Obrigatório!</string>
     <string name="Validar_data">Formato DD/MM/AAAA</string>
     <string name="Cancelar">Cancelar</string>
+    <string name="Guardar">Guardado</string>
 </resources>

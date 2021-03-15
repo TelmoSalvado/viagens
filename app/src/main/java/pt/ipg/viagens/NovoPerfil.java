@@ -7,16 +7,23 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+
+
 public class NovoPerfil extends AppCompatActivity {
     private EditText Textnome;
     private EditText Textlocalidade;
     private EditText Textdatadenascimento;
     private EditText Texttelemovel;
+    DatabaseReference databaseReferencePerfil;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        databaseReferencePerfil = FirebaseDatabase.getInstance().getReference("perfil");
         setContentView(R.layout.activity_novo_perfil);
         Textnome = (EditText) findViewById(R.id.nome);
         Textlocalidade = (EditText) findViewById(R.id.localidade);
@@ -84,7 +91,15 @@ public class NovoPerfil extends AppCompatActivity {
             Texttelemovel.requestFocus();
             return;
         }
-        Toast.makeText(this, R.string.Cancelar, Toast.LENGTH_SHORT).show();
+
+        String id = databaseReferencePerfil.push().getKey();
+        Perfil perfil = new Perfil(id, Nome, Localidade, data, Telemovel);
+        databaseReferencePerfil.child(id).setValue(perfil);
+
+
+
+        Toast.makeText(this, R.string.Guardar, Toast.LENGTH_SHORT).show();
+
 
 
     }
